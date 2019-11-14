@@ -55,16 +55,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <RadioButton
+                        android:id="@+id/buttonMujer"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <RadioButton
+                        android:id="@+id/buttonHombre"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </RadioGroup>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nuevo Jugador"/>
+                    android:text="Nuevo Jugador"
+                    android:layout_gravity="center"/>
 
             </LinearLayout>
 
@@ -73,7 +76,8 @@
             android:id="@+id/ContenedorTexto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="invisible">
 
             <TextView
                 android:id="@+id/tvDatos"

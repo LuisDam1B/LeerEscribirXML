@@ -26,10 +26,12 @@
                 android:layout_gravity="center"
                 android:gravity="center">
                 <Button
+                    android:id="@+id/btnEscribirXML"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Escribir XML"/>
                 <Button
+                    android:id="@+id/btnLeerXML"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Leer XML"/>
@@ -44,12 +46,12 @@
                     android:id="@+id/etNombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Nombre"/>
+                   android:hint="Nombre"/>
                 <EditText
                     android:id="@+id/etPuntuacion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Puntuacion"/>
+                    android:hint="Puntuacion"/>
                 <RadioGroup
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
@@ -76,7 +78,7 @@
 
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/ContenedorTexto"
+            android:id="@+id/contenedorTexto"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
